@@ -29,7 +29,7 @@ namespace apiMongoDB.Services
 
         public void Delete(string id) => _city.DeleteOne(c =>c.Id == id);
 
-        internal ActionResult<List<City>> Get()
+        public ActionResult<List<City>> Get()
         {
             throw new NotImplementedException();
         }
