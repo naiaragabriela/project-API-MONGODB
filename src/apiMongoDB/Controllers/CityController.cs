@@ -1,6 +1,11 @@
-﻿namespace apiMongoDB.Controllers
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace apiMongoDB.Controllers
 {
-    public class CityController
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CityController : ControllerBase
     {
     }
 }

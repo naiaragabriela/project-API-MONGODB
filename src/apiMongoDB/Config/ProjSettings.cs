@@ -1,6 +1,6 @@
 ﻿namespace apiMongoDB.Config
 {
-    public class apiMongoDB : IapiMongoDB
+    public class ProjSettings : IProjSettings
     {
         public string CityCollection { get; set; }
         public string AddressController { get; set; }
